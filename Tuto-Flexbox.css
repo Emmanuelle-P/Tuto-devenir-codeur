@@ -1,0 +1,30 @@
+#conteneur
+{
+	display: flex; /*les elements s'aligne*/
+	flex-wrap: flex;
+	align-content: flex-start;
+	height: 500px;
+	border: 2px solid #444;
+}
+
+.element
+{
+	width: 150px;
+	height: 100px;
+}
+
+.element:nth-child(n)
+{
+	background-color: orange;
+}
+
+.element:nth-child(2n)
+{
+	background-color: blue;
+}
+
+.element:nth-child(3n)
+{
+	background-color: #ad6;
+}
+

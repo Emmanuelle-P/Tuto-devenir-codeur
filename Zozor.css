@@ -1,0 +1,74 @@
+h1
+{
+	border: 3px black solid;
+	width: 50%
+}
+p
+{
+	width: 350px;		   /*largeur du bloc*/	
+	height: 40px;
+	border: 1px solid black;
+	text-align: justify;
+	padding: 12px;         /* marge interieur*/
+	margin-top: 50px ;	   /*espacer les paragraphes*/
+	margin-bottom: 50px;
+	word-wrap: break-word; /*quand un texte sors du cadre par la droite*/
+}
+.overflow
+{
+	overflow: auto;		   /*ajoute une barre de defilement si le texte prend trop de place dans le adresse*/
+}
+#conteneur
+{
+	border: 1px solid black;
+	width: 50%;
+	display: flex;	
+	justify-content: center;
+	height: 350px; 		   /*un peu de hauteur pour que les elements aie,t de la place pour bouger*/
+	align-items:  center;
+}
+.element
+{
+	border: 1px solid blue;
+	padding: 12px;
+}
+#conteneur2
+{
+	border: 1px solid green;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap-reverse;
+	width: 40%;
+	height: 150px;
+	align-items: center;
+
+}
+
+.element
+{
+	margin: auto;
+}
+.element:nth-child(2)
+{
+	
+	align-self: flex-end;
+}
+.element
+{
+	background-color: yellow;
+}
+.newelement
+{
+	border: 1px green solid;
+	display: flex;
+	flex-direction: column;
+	width: 10%
+
+}
+#conteneur3
+{
+	border: 1px solid orange;
+	display: flex;
+	width: 60%
+	padding: 100px;
+}

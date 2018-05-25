@@ -1,0 +1,87 @@
+p
+{
+	color: #ff5050; /* Commentaires */
+}
+h2, h3 
+{
+	color: blue;
+	font-style: italic;
+	text-align: left;
+}
+.introduction
+{
+	color: green;
+	text-decoration: line-through;
+}
+p
+{
+	font-size: 1.2em;
+	text-align: justify;
+}
+p
+{
+	font-family: Arial, Times New Roman, arial black;
+}
+.milieu
+{
+	font-weight: bold;
+}
+ol
+{
+	text-decoration: underline;
+}
+.flottant
+{
+	clear: center;
+}
+.autreparagraphe
+{
+	clear: right;
+}
+h1
+{
+	background-color: #ffff99;
+}
+body
+{
+	background-image: url("images/neige.jpg");
+}
+h1
+{
+	border: 3px green solid;
+	border-radius: 20px / 20px;
+	box-shadow: 6px 6px 6px black;
+}
+h2
+{
+	text-shadow: 6px 6px 6px black;
+}
+a:hover
+{
+	text-decoration: underline;
+	color: maroon;
+}
+p:hover
+{
+	color: black;
+}
+a:active
+{
+	background-color: #FFCC66
+}
+a:focus
+{
+	background-color: #FFCC66
+}
+a:visited
+{
+	color: #AAA;
+}
+header
+{
+	font-size: 50px;
+}
+footer
+{
+	font-size: 20px;
+}
