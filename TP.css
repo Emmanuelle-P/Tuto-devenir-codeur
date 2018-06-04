@@ -144,22 +144,6 @@ header
     height: 60px;
 }
 
-header h1
-{
-    font-family: 'BallparkWeiner', serif;
-    font-size: 2.5em;
-    font-weight: normal;
-    margin: 0 0 0 10px;
-}
-
-header h2
-{
-    font-family: Dayrom, serif;
-    font-size: 1.1em;
-    margin-top: 0px;
-    font-weight: normal;
-}
-
 /* Navigation */
 
 nav ul
@@ -180,13 +164,6 @@ nav a
     padding-bottom: 3px;
     text-decoration: none;
 }
-
-nav a:hover
-{
-    color: #760001;
-    border-bottom: 3px solid #760001;
-}
-
 
 /* Corps */
 
@@ -230,23 +207,6 @@ aside
     font-size: 0.9em;
 }
 
-#fleche_bulle
-{
-    position: absolute;
-    top: 100px;
-    left: -12px;
-}
-
-#photo_zozor
-{
-    text-align: center;
-}
-
-#photo_zozor img
-{
-    border: 1px solid #181818;
-}
-
 aside img
 {
     margin-right: 5px;
@@ -273,42 +233,3 @@ footer h1
 }
 
 
-#tweet
-{
-    width: 28%;
-}
-
-#mes_photos
-{
-    width: 35%;
-}
-
-#mes_amis
-{
-    width: 31%;
-}
-
-#mes_photos img
-{
-    border: 1px solid #181818;
-    margin-right: 2px;
-}
-
-#listes_amis
-{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 0;
-}
-
-#mes_amis ul
-{
-    list-style-image: url('images/ico_liensexterne.png');
-    padding-left: 2px;
-}
-
-#mes_amis a
-{
-    text-decoration: none;
-    color: #760001;
-}
