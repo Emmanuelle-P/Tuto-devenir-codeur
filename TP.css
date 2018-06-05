@@ -70,6 +70,7 @@ nav ul
 
 #banniere_image
 {
+<<<<<<< HEAD
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -77,6 +78,15 @@ nav ul
     align-content:center;
     height: 300px;
     width: 800px;
+=======
+    margin-top: 15px;
+    height: 200px;
+    border-radius: 5px;
+    background: url('images/image_couverture.jpg') no-repeat;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+>>>>>>> 6987f2741e3b266a9ac13ff7ccf3694e80b6617f
 }
 
 #banniere_description
@@ -144,7 +154,10 @@ header
     height: 80px;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6987f2741e3b266a9ac13ff7ccf3694e80b6617f
 /* Navigation */
 
 nav ul
@@ -166,7 +179,10 @@ nav a
     text-decoration: none;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6987f2741e3b266a9ac13ff7ccf3694e80b6617f
 /* Corps */
 
 section
@@ -209,6 +225,7 @@ aside
     font-size: 0.9em;
 }
 
+<<<<<<< HEAD
 #fleche_bulle
 {
     position: absolute;
@@ -216,6 +233,8 @@ aside
     left: 12px;
 }
 
+=======
+>>>>>>> 6987f2741e3b266a9ac13ff7ccf3694e80b6617f
 aside img
 {
     margin-right: 5px;
@@ -241,3 +260,7 @@ footer h1
     font-size: 1.1em;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6987f2741e3b266a9ac13ff7ccf3694e80b6617f
